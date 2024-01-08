@@ -31,7 +31,7 @@ Some of the potential business questions that can be used to analyze the Amazon 
   ---
   # Data Cleaning and data wrangling
 
-  This report will address the data quality issues found in the Amazon Prime title dataset.
+This report will address the data quality issues found in the Amazon Prime title dataset.
 
 Firstly, the cells C20 and D20 were merged, making it impossible to view the data entries in those cells. Unmerging the cells will solve this issue.
 
