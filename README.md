@@ -29,13 +29,13 @@ Some of the potential business questions that can be used to analyze the Amazon 
 - Number of comedy dramas, their year of release, and their duration.
 
   ---
-  # Data Cleaning and data wrangling
+# Data Cleaning and data wrangling
 
 This report will address the data quality issues found in the Amazon Prime title dataset.
 
 Firstly, the cells C20 and D20 were merged, making it impossible to view the data entries in those cells. Unmerging the cells will solve this issue.
 
-Also, the director name column should be divided into the “First name” and “Last name” columns. Cell D18 should have a director name in it because every movie has a director. 
+Also, the director name column should be divided into the “First name” and “Last name” columns. Cell D18 should have a director's name in it because every movie has a director. 
 
 The data format does not use a defined data format under the date_added. That is, integer and string formats were used. The year is recorded as XX instead of XXXX. Additionally, there were empty dates under the date_added column which is unusual, knowing that a movie should have a release date. 
 
